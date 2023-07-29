@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styling for centering the content */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+/* Styling for the number */
+.container p {
+  font-size: 75px;
+  margin: 0 0.5em;
+}
